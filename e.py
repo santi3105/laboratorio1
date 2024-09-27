@@ -1,12 +1,12 @@
-cantidad = float(input(print(f"Ingrese el valor total de la compra: ")))
-vip = input(print(f"Es un usuario VIP? si o no: "))
+cantidad = float(input((f"Ingrese el valor total de la compra: ")))
+vip = input((f"Es un usuario VIP? si o no: "))
 total = 0
 descuento = 0
 if vip == "si":
     vip = True
 else:
     vip = False
-codigo = input(print(f"Tiene un codigo de descuento? si o no: "))
+codigo = input((f"Tiene un codigo de descuento? si o no: "))
 if codigo == "si":
     codigo = True
 else:
